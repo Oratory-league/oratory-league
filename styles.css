@@ -23,14 +23,16 @@ header {
 }
 
 .logo-img {
-    width: 120px; /* Adjusted for better scaling */
+    width: 120px;
     height: auto;
+    align-items: left;
 }
 
 header nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
+    align-items: right;
 }
 
 header nav ul li {
@@ -47,10 +49,10 @@ nav a:hover {
     color: #f39c12;
 }
 
-/* General header styling */
+
 header {
     background-color: #343a40;
-    padding: 15px 30px; /* Add padding to provide more breathing room */
+    padding: 15px 30px;
     color: #fff;
     position: sticky;
     top: 0;
@@ -60,21 +62,19 @@ header {
     align-items: center;
 }
 
-/* Styling for the logo */
+
 header .logo {
-    width: 150px; /* Adjust width to control logo size */
+    width: 150px;
     height: auto;
-    margin-right: 20px; /* Add spacing to separate logo from nav */
 }
 
-/* Adjust logo's font properties if text-based */
+
 header .logo-text {
     font-size: 1.8em;
     color: #f39c12;
     text-transform: uppercase;
-    font-family: 'Georgia', serif;
     letter-spacing: 1px;
-    margin: 0; /* Remove additional spacing */
+    margin: 0; 
 }
 
 
