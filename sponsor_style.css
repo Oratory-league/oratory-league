@@ -16,30 +16,37 @@ body {
 }
 
 header {
-    background-color: #2c3e50;
-    padding: 10px 0;
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 20px;
 }
 
-nav ul {
+header nav {
     display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-nav li {
-    margin: 0 15px;
+header .logo {
+    width: 150px;
+    height: auto;
 }
 
-nav a {
-    color: white;
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
+    font-size: 1.2em;
 }
 
-nav a:hover {
+header nav ul li a:hover {
     color: #f39c12;
 }
 
