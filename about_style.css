@@ -1,11 +1,19 @@
 
+@font-face {
+    font-family: 'Cannu';
+    src: url('Cannu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Cannu';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1.6;
+    background-color: #f8f9fa;
+    text-align: center;
 }
 
 header {
