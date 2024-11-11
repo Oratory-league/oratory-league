@@ -1,0 +1,248 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+
+header {
+    background-color: #343a40;
+    padding: 20px;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+header .logo {
+    flex: 1;
+    text-align: center;
+    font-size: 2.5em; 
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #f39c12;  
+    text-transform: uppercase;
+    font-family: 'Georgia', serif; 
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 75px;  
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-right: 10px; 
+}
+
+header nav {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;  
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+
+#hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000, -2px -2px 4px #000000;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px #000000, -2px -2px 4px #000000;
+}
+
+
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#about .portrait {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
+.president-title {
+    font-size: 1em;          
+    color: #333;           
+    font-weight: 550; 
+    margin-top: 8px;        
+    font-family: 'Georgia', serif;  
+    text-align: center;      
+}
+
+
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f1f1f1; 
+}
+
+.countdown-container h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+#timer {
+    font-size: 2em;
+    font-weight: bold;
+    color: #d9534f;
+    margin-top: 10px;
+}
+
+
+.cta-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#contact {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact_us {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form input[type="tel"] {
+    width: 100%;
+}
+
+#confirmation-message {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
