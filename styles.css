@@ -7,6 +7,7 @@
 
 
 body {
+    font-family: 'Cannu';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -69,6 +70,10 @@ header nav ul li a:hover {
     text-shadow: 2px 2px 4px #000000;
 }
 
+p {
+    font-size: 3em
+}
+
 
 #about {
     padding: 40px 20px;
@@ -80,8 +85,8 @@ header nav ul li a:hover {
 }
 
 #about .portrait {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     margin-top: 20px;
     border: 3px solid black;
