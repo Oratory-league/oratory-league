@@ -10,98 +10,38 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f8f9fa;
-    font-family: 'Cannu', Arial, sans-serif;
+    text-align: center;
 }
 
 header {
     background-color: #343a40;
     color: #fff;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo-img {
-    width: 120px;
-    height: auto;
-    align-items: left;
-}
-
-header nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    align-items: right;
-}
-
-header nav ul li {
-    margin: 0 15px;
-}
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
-nav a:hover {
-    color: #f39c12;
-}
-
-
-header {
-    background-color: #343a40;
-    padding: 15px 30px;
-    color: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 header .logo {
-    width: 150px;
+    width: 120px;
     height: auto;
-}
-
-
-header .logo-text {
-    font-size: 1.8em;
-    color: #f39c12;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0; 
-}
-
-
-header nav {
-    flex-grow: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-header nav ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-}
-
-header nav ul li {
     margin-left: 20px;
 }
 
-header nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1em;
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
 }
 
-nav a:hover {
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
     color: #f39c12;
 }
 
@@ -109,45 +49,44 @@ nav a:hover {
     background-image: url('coverpic.jpg');
     background-size: cover;
     background-position: center;
-    text-align: center;
     color: white;
-    padding: 120px 20px;
+    padding: 100px 0;
     position: relative;
 }
 
 .hero-text h1 {
     font-size: 3em;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px #000;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .hero-text p {
     font-size: 1.5em;
-    text-shadow: 2px 2px 4px #000;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-section {
-    padding: 60px 20px;
+#about {
+    padding: 40px 20px;
 }
 
-.container {
-    max-width: 1000px;
+#about .container {
+    max-width: 800px;
     margin: 0 auto;
-    text-align: center;
 }
 
 #about .portrait {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-top: 20px;
-    border: 3px solid #343a40;
+    border: 3px solid black;
 }
 
 .president-title {
     font-size: 1em;
     color: #333;
     font-weight: 550;
+    margin-top: 8px;
     font-family: 'Georgia', serif;
 }
 
@@ -159,21 +98,28 @@ section {
 .countdown-container h3 {
     font-size: 1.8em;
     color: #333;
-    margin-bottom: 20px;
 }
 
 #timer {
     font-size: 2em;
+    font-weight: bold;
     color: #d9534f;
+    margin-top: 10px;
+}
+
+#sponsors .container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .cta-btn {
     background-color: #007bff;
     color: white;
-    padding: 12px 24px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.1em;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .cta-btn:hover {
@@ -183,35 +129,6 @@ section {
 footer {
     background-color: #343a40;
     color: white;
-    padding: 20px;
     text-align: center;
-}
-
-/* Responsive Design Adjustments */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header nav ul {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    #hero {
-        padding: 80px 20px;
-    }
-
-    .hero-text h1 {
-        font-size: 2.2em;
-    }
-
-    .hero-text p {
-        font-size: 1.2em;
-    }
-
-    .container {
-        padding: 0 10px;
-    }
+    padding: 20px;
 }
