@@ -5,10 +5,12 @@
     font-style: normal;
 }
 
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     text-align: center;
 }
@@ -16,23 +18,26 @@ body {
 header {
     background-color: #343a40;
     color: #fff;
-    padding: 15px;
+    padding: 15px 20px;
+}
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header .logo {
-    width: 120px;
+    width: 150px;
     height: auto;
-    margin-left: 20px;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
-    margin-right: 20px;
+    gap: 30px;
 }
 
 header nav ul li a {
@@ -65,6 +70,7 @@ header nav ul li a:hover {
     text-shadow: 2px 2px 4px #000000;
 }
 
+
 #about {
     padding: 40px 20px;
 }
@@ -75,20 +81,21 @@ header nav ul li a:hover {
 }
 
 #about .portrait {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin-top: 20px;
     border: 3px solid black;
 }
 
 .president-title {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #333;
     font-weight: 550;
     margin-top: 8px;
     font-family: 'Georgia', serif;
 }
+
 
 #countdown {
     padding: 40px 20px;
@@ -106,6 +113,7 @@ header nav ul li a:hover {
     color: #d9534f;
     margin-top: 10px;
 }
+
 
 #sponsors .container {
     max-width: 800px;
@@ -125,6 +133,7 @@ header nav ul li a:hover {
 .cta-btn:hover {
     background-color: #0056b3;
 }
+
 
 footer {
     background-color: #343a40;
