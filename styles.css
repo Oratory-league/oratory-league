@@ -1,6 +1,19 @@
+@font-face {  
+    font-family: 'Cannu';  
+    src: url('Cannu.ttf') format('ttf'),  
+    font-weight: normal;  
+    font-style: normal;  
+}
+
+body {  
+    background-image: url('coverpic.jpg');  
+    background-size: cover;   
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +23,7 @@ body {
 
 header {
     background-color: #343a40;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
     position: sticky;
     top: 0;
@@ -38,10 +51,8 @@ header .logo {
 }
 
 .logo-img {
-    width: 75px;  
+    width: 5rem;  
     height: auto;
-    border-radius: 50%;
-    border: 3px solid black;
     margin-right: 10px; 
 }
 
